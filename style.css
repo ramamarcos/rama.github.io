@@ -30,7 +30,8 @@ body {
 header {
     background: url(https://www.shutterstock.com/image-vector/blank-glossy-white-airplane-airliner-600nw-1894504798.jpg);
     background-position: center;
-    background-size: auto!important;
+    background-size: cover!important;
+    text-align: center;
 }
 
 header h1, header p {
@@ -78,41 +79,33 @@ section {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
     max-width: 400px;
+}
+
+label {
+    margin-top: 10px;
     font-weight: bold;
-
+    color: #333333;
 }
 
-label, input, textarea {
-    display: block;
-    resize: none;
-}
-
-
-input {
-    width: 600px;
-    height: 30px;
-    border: solid #ccc;
-}
-
-textarea {
-    width: 600px;
-    border: solid #ccc;
-}
-
-input,textarea {
+input, textarea {
+    padding: 8px;
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
+textarea {
+    resize: none;
+    height: 200px;
+}
 
 button {
-    margin: 0;
     background: #27ae60;
     color: #fff;
     padding: 10px;
     border: none;
     cursor: pointer;
-    position: relative;
-    width: 600px;
 }
+
