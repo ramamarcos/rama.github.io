@@ -13,4 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
             panel.classList.remove('activo')
         })
     }
+
+    function enConstruccion() {
+        window.alert("La pagina se encuentra en construcción.")
+    }
 })
