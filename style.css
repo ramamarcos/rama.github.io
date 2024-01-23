@@ -28,9 +28,9 @@ body {
 }
 
 header {
-    background: #e6394a;
-    text-align: center;
-    color: #fff;
+    background: url(https://www.shutterstock.com/image-vector/blank-glossy-white-airplane-airliner-600nw-1894504798.jpg);
+    background-position: center;
+    background-size: auto!important;
 }
 
 header h1, header p {
@@ -77,6 +77,42 @@ section {
     transition: opacity 0.3s ease-in 0.4s;
 }
 
+form {
+    max-width: 400px;
+    font-weight: bold;
+
+}
+
+label, input, textarea {
+    display: block;
+    resize: none;
+}
 
 
+input {
+    width: 600px;
+    height: 30px;
+    border: solid #ccc;
+}
 
+textarea {
+    width: 600px;
+    border: solid #ccc;
+}
+
+input,textarea {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+button {
+    margin: 0;
+    background: #27ae60;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    width: 600px;
+}
