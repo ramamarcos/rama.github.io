@@ -9,6 +9,7 @@ body {
     padding: 0;
     font-size: 16px;
     background: #fafafa;
+    overflow-x: hidden;
 }
 
 .contenedor {
