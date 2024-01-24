@@ -132,3 +132,15 @@ button {
 
 }
 
+
+@media only screen and (max-width: 600px) {
+    #nyc {
+        background: url(https://images.unsplash.com/photo-1552519837-47846308a0e9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRpbWVzJTIwc3F1YXJlfGVufDB8fDB8fHww)!important;
+        background-size: cover!important;
+    }
+
+    #cancun {
+        background: url(https://e1.pxfuel.com/desktop-wallpaper/700/370/desktop-wallpaper-paradise-beach-cancun-iphone.jpg)!important;
+        background-size: cover!important;
+    }
+}

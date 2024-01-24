@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const hola = 'hola este es in texto'
     const paneles = document.querySelectorAll('.panel');
     const secciones = document.querySelectorAll('.informacion');
 
