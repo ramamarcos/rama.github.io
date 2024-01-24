@@ -2,8 +2,6 @@
 
 * {
     box-sizing: border-box;
-    overflow-x: hidden;
-
 }
 
 body {
@@ -42,7 +40,7 @@ header h1, header p {
 }
 
 section {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .contenedor_panel {
@@ -54,6 +52,7 @@ section {
     background-position: center;
     height: 60vh;
     border-radius: 30px;
+    font-weight: bold;
     color: #fff;
     cursor: pointer;
     flex: 0.10;
@@ -81,8 +80,12 @@ section {
     transition: opacity 0.3s ease-in 0.4s;
 }
 
-h2 {
+h1 {
     text-align: center;
+}
+
+h2, h3 {
+    font-size: 24px;
 }
 
 form {
