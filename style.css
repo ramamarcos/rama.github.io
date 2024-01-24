@@ -10,8 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    background: #8ecae6;
-    color: #fff;
+    background: #fafafa;
 }
 
 .contenedor {
@@ -82,10 +81,16 @@ section {
     transition: opacity 0.3s ease-in 0.4s;
 }
 
+h2 {
+    text-align: center;
+}
+
 form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 label {
