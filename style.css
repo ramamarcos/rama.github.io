@@ -75,6 +75,14 @@ section {
     flex: 5;
 }
 
+.informacion {
+    display: none;
+}
+
+.informacion.activo {
+    display: block;
+}
+
 .panel.activo h3 {
     flex: 5;
     opacity: 1;
